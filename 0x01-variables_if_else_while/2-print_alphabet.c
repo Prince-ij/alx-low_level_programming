@@ -1,16 +1,18 @@
-#include <stdio.h>
+nclude <stdio.h>
+#include <unistd.h>
 /**
- * main - Entry point
- * 
- * Return: Always 0 (Success)
- */
+ *  * main - Entry point
+ *   * Description: prints the alphabet in lowercase\n
+ *    * Return: Always 0 (success)
+ *     */
 int main(void)
-{	/* initializing variables */
-	int a = 97;
-	int z = 122;
+{
+		int ch;
 
-	while (a <= z)
-	{	putchar(a);
-		a++;
-	}
+			for (ch = 'a'; ch <= 'z'; ch++)
+					{
+								putchar(ch);
+									}
+				putchar('\n');
+				return (0);
 }
