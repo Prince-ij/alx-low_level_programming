@@ -21,14 +21,14 @@ int main(void)
 	{
 		putchar(a);
 		a++;
-	}
-	while (A <= Z)
-	{
-		putchar(A);
-		A++;
-		if (A === Z)
-			break;
-	}
+		if (a == z)
+		{
+			while(A <= Z)
+			{
+				putchar(A);
+				A++;
+			}
+		}
 	putchar('\n');
 	return (0);
 }
