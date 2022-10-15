@@ -3,7 +3,9 @@
 #include <time.h>
 /**
  * main - entry point of programs
- * 
+ *
+ * Description: 'positivr or negative'
+ *
  * Return: return 0
  */
 int main(void)
