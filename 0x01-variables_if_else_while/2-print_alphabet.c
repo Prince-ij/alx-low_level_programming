@@ -3,6 +3,8 @@
 /**
  * main - Entry point
  *
+ * Description: 'printing alphabets'
+ *
  * Return: O success
  */
 int main(void)
