@@ -22,11 +22,11 @@ int main(void)
 		putchar(a);
 		a++;
 	}
-	putchar('\n');
 	while (A <= Z)
 	{
 		putchar(A);
 		A++;
 	}
+	putchar('\n');
 	return (0);
 }
