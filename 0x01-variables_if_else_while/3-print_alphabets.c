@@ -18,18 +18,17 @@ int main(void)
 	z = 'z';
 	A = 'A';
 	Z = 'z';
-	for (i = 0; i <= 52; i++)
+	while (a <= z)
 	{
-		while (a <= z)
-		{
-			putchar(a);
-			a++;
-		}
-		while (A <= Z)
-		{
-			putchar(A);
-			A++;
-		}
+		putchar(a);
+		a++;
+		if (a == z + 1)
+			break;
+	}
+	while (A <= Z)
+	{
+		putchar(A);
+		A++;
 	}
 	putchar('\n');
 	return (0);
