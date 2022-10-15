@@ -1,11 +1,10 @@
+#include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-/*Task O for 0x01-varaibles_if_else_while */
-
 /**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+ * main - entry point of programs
+ * 
+ * Return: return 0
  */
 int main(void)
 {
@@ -25,5 +24,4 @@ int main(void)
 	{
 		printf("%d is negative\n", n);
 	}
-	return (0);
 }
