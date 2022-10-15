@@ -26,7 +26,7 @@ int main(void)
 	{
 		putchar(A);
 		A++;
-		if (A == Z)
+		if (A === Z)
 			break;
 	}
 	putchar('\n');
