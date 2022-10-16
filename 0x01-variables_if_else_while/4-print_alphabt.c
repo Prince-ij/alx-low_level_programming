@@ -19,6 +19,7 @@ int main(void)
 		if (a != 'q' || a != 'e')
 		{	
 			putchar(a);
+			a++;
 		}
 	}
 	return (0);
