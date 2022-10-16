@@ -8,8 +8,8 @@
  */
 int main(void)
 {
-	int a;
-	int z;
+	int a{};
+	int z{};
 
 	while (a <= z)
 	{
