@@ -19,7 +19,14 @@ int main(void)
 	Z = 'z';
 	for (; a <= z; a++)
 	{
-		putchar(a);
+		if (a == Z + 1)
+		{
+			break;
+		}
+		else
+		{
+			putchar(a);
+		}
 	}
 	for (; A <= Z; A++)
 	{
