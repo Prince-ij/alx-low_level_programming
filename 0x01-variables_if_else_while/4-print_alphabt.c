@@ -8,9 +8,11 @@
  */
 int main(void)
 {
-	int a{};
-	int z{};
+	int a;
+	int z;
 
+	a = 'a';
+	z = 'z';
 	while (a <= z)
 	{
 		
