@@ -23,7 +23,7 @@ int main(void)
 	}
 	for (; A <= Z; A++)
 	{
-		putchar(Z);
+		putchar(A);
 	}
 	putchar('\n');
 	return (0);
