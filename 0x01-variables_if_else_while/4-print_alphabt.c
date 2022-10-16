@@ -2,9 +2,9 @@
 /*
  * main - Entry point
  *
- * Description: 'task 4'
+ * Description: 'print alphabt task'
  *
- * Return: Always 0
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
