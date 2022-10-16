@@ -20,6 +20,7 @@ int main(void)
 		{	
 			putchar(a);
 			a++;
+			continue;
 		}
 	}
 	return (0);
