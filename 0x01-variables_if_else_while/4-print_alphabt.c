@@ -11,13 +11,13 @@ int main(void)
 	int a;
 	int z;
 
-while (a <= z)
-{
-		
-	if (a != 'q' && a != 'e')
+	while (a <= z)
 	{
-		putchar(a);
+		
+		if (a != 'q' && a != 'e')
+		{	
+			putchar(a);
+		}
 	}
-}
 	return (0);
 }
