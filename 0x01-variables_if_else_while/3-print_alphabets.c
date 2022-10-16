@@ -17,17 +17,14 @@ int main(void)
 	z = 'z';
 	A = 'A';
 	Z = 'z';
-	while (a <= z)
+	for (; a <= z; a++)
 	{
 		putchar(a);
-		a++;
-		if (a == z + 1)
-			break;
 	}
-	while (A <= Z)
+	for (; A <= Z; A++)
 	{
-		putchar(A);
-		A++;
+		putchar(Z);
 	}
+	putchar('\n');
 	return (0);
 }
