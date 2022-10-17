@@ -1,8 +1,8 @@
 #include <stdio.h>
 /**
- * main - Prints 3 combination of numbers
- * 
- * Return: Always (Success)
+ * main - Entry point
+ * Description: 'print comb4'
+ * Return: Always 0 (success)
  */
 int main(void)
 {
@@ -19,7 +19,8 @@ int main(void)
 					putchar(c);
 					putchar(i);
 					putchar(k);
-					if (c != 7)
+
+					if (c != '7')
 					{
 						putchar(',');
 						putchar(' ');
