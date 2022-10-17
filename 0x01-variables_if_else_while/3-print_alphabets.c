@@ -20,11 +20,15 @@ int main(void)
 	for (; a <= z; a++)
 	{
 		putchar(a);
+		if (a == Z + 1)
+			break;
 	}
 
 	for (; A <= Z; A++)
 	{
 		putchar(A);
+		if (A == Z)
+			break;
 	}
 	return (0);
 }
