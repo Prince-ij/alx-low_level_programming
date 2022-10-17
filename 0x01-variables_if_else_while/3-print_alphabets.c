@@ -1,34 +1,22 @@
 #include <stdio.h>
+#include <unistd.h>
 /**
  * main - Entry point
- *
- * Description: 'prints alphabets'
- *
- * Return: 0 success
+ * Description: 'print alphabets'
+ * Return: Always 0 (Success)
  */
 int main(void)
 {
-	int a;
-	int z;
-	int A;
-	int Z;
+	int ch;
 
-	a = 'a';
-	z = 'z';
-	A = 'A';
-	Z = 'z';
-	for (; a <= z; a++)
+	for (ch = 'a'; ch <= 'z'; ch++)
 	{
-		putchar(a);
-		if (a == Z + 1)
-			break;
+		putchar(ch);
 	}
-
-	for (; A <= Z; A++)
+	for (ch = 'A'; ch <= 'Z'; ch++)
 	{
-		putchar(A);
-		if (A == Z)
-			break;
+		putchar(ch);
 	}
+	putchar('\n');
 	return (0);
 }
