@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include "main.h"
 /**
- * main - Entry point
+ * print_alphabet_x10 - prints alphabet 10 xt
  *
  * Return: 0
  */
