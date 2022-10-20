@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdio.h"
 /**
  * _isdigit - Entry point
  * @c: an int
@@ -6,7 +7,7 @@
  */
 int _isdigit(int c)
 {
-	if (c <= 9 && c >=0)
+	if (c <= '9'  && c >= '0')
 	{
 		return (1);
 	}
