@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * *_strcpy - copies copies
- * @dest: param 
+ * @dest: param
  * @src: param
  * Return: char
  */
