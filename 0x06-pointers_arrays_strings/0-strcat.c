@@ -3,7 +3,7 @@
  * _strcat - function that joins strings together
  * @src: first param
  * @dest: second param
- * Return: void
+ * Return: dest
  */
 char *_strcat(char *src, char *dest)
 {
