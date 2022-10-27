@@ -5,7 +5,7 @@
  * @n: second param
  * Return: void
  */
-void reverse_array(char *a, int n)
+void reverse_array(int *a, int n)
 {
 	int i, b;
 
