@@ -5,7 +5,7 @@
  * @dest: second param
  * Return: void
  */
-void *_strcat(char *src, char *dest)
+char *_strcat(char *src, char *dest)
 {
 	int i, j;
 
