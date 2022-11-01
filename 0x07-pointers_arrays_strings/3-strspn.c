@@ -3,6 +3,7 @@
  * _strspn - main point
  * @s: -
  * @accept: +
+ * Return: void
  */
 unsigned int _strspn(char *s, char *accept)
 {
