@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * print_rev_recursion - funv
+ * _print_rev_recursion - funv
  * @s: param
  * Return: void
  */
