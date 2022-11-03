@@ -1,9 +1,9 @@
 #include "main.h"
 /**
- * wildcmp : main
- * @s1: int1
- * @s2: int2
- * Return: int
+ * wildcmp - mainyubjj
+ * @s1: int1ion
+ * @s2: int2bjkj
+ * Return: inteoldbj
  */
 int wildcmp(char *s1, char *s2)
 {
