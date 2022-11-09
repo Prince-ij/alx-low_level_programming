@@ -4,7 +4,7 @@
  * main - Entry point
  * @argc: param
  * @argv: param
- * Return: Always 0 Successa
+ * Return: Always 0 Success
  */
 int main(int argc, char **argv)
 {
