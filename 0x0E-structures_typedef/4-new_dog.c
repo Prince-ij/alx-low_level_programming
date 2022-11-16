@@ -1,4 +1,4 @@
-#include "string.h"
+#include "dog.h"
 /**
  * new_dog - function
  * @name: paeam
