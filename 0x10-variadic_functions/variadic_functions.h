@@ -5,7 +5,12 @@
 #include <string.h>
 #include <stdarg.h>
 #include <stdio.h>
-typedef struct printer{
+/**
+ * printer_t - eyomavhj
+ * struct printer - not bad kid
+ */
+typedef struct printer
+{
 	char *symbol;
 	void (*print)(va_list arg);
 } printer_t;
