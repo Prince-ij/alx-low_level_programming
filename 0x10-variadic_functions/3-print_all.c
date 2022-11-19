@@ -50,13 +50,14 @@ void print_string(va_list arg)
 }
 /**
  * print_all - func
- * @arg: param
+ * @format: param
  */
 void print_all(const char * const format, ...)
 {
 	va_list args;
 
-	int i = 0; int j = 0;
+	int i = 0;
+	int j = 0;
 
 	char *separator = "";
 
