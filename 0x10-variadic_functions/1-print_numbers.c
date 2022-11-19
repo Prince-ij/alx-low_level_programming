@@ -1,7 +1,7 @@
 #include "variadic_functions.h"
 /**
  * print_numbers - functuon
- * @seperator: blah
+ * @separator: blah
  * @n: blah
  */
 void print_numbers(const char *separator, const unsigned int n, ...)
