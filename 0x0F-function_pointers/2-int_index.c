@@ -2,8 +2,9 @@
 /**
  * int_index - function
  * @array: paeam
- * @size: para 
+ * @size: para
  * @cmp: paran
+ * Return: int
  */
 int int_index(int *array, int size, int (*cmp)(int))
 {
