@@ -57,9 +57,9 @@ void print_all(const char * const format, ...)
 {
 	va_list args;
 
-	int i = 0; j = 0;
+	int i = 0; int j = 0;
 
-	char *seperator = "";
+	char *separator = "";
 
 	printer_t funcs[] = {
 		{"c", print_char},
@@ -74,12 +74,12 @@ void print_all(const char * const format, ...)
 		j++;
 	if (j < 4)
 	{
-		printf("%s", seperator);
+		printf("%s", separator);
 		funcs[j].print(args);
 		seperator = ", ";
 	}
 	i++;
 	}
 	printf("\n");
-	va_end(arg);
+	va_end(args);
 }
