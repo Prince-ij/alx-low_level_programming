@@ -7,7 +7,7 @@
 #include <stdio.h>
 /**
  * printer_t - eyomavhj
- * struct printer - not bad kid
+ * typedef printer - not bad kid
  */
 typedef struct printer
 {
