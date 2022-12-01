@@ -7,14 +7,8 @@
 
 int get_endianness(void)
 {
-	uint32_t i;
-	uint8_t *pi;
+	unsigned int e = 1;
+	char *c = (char *) &e;
 
-	i = 1;
-	pi = (uint8_t *) &i;
-
-	if (*pi == 1)
-		return (0);
-	else
-		return (1);
+	return (*c);
 }
