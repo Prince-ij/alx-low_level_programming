@@ -1,18 +1,16 @@
 #include "main.h"
+
 /**
- * _strlen_recursion - function name
- * @s: char paeam
- * Return: integer
+ * _strlen_recursion - size
+ * @s: pointer to string params
+ * Return: recursion
  */
+
 int _strlen_recursion(char *s)
 {
-	arg = 0;
-	if(*s == '\0')
-		return (0);
-	else
+	if (!*s)
 	{
-	arg += 1;
-	_strlen_recursion(s + 1);
-	return (arg);
+		return (0);
 	}
+	return (1 + _strlen_recursion(++s));
 }
