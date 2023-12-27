@@ -1,0 +1,10 @@
+# make file for school part 2
+
+# variable containing compiler name
+CC := gcc
+SRC := %.c
+
+all : school
+
+school: SRC
+	$(CC) $(SRC) -$@
