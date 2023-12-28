@@ -7,8 +7,8 @@ NAME = school
 
 all: $(NAME)
 
-$(NAME): $(SRC)
-	$(CC) $(OBJ) -o $(NAME)
+$(NAME): $(OBJ)
+	$(CC) $^ -o $@
 
 %.o: %.c
-	$(CC) $< -o $@
+	${CC} -c $< -o $@
