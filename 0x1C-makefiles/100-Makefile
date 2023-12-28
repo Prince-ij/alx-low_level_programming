@@ -11,7 +11,7 @@ all: $(NAME)
 
 include m.h
 $(NAME): $(OBJ)
-	$(CC) $(OBJ) -c $@
+	$(CC) $(OBJ) -o $@
 
 clean:
 	$(RM) *~ $(NAME)
