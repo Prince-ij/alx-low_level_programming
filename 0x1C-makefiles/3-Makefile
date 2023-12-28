@@ -1,8 +1,8 @@
 # make file a liitle bit compklexx
 
-CC := gcc
-SRC := main.c school.c
-OBJ := $(SRC:.c=.o)
+CC = gcc
+SRC = main.c school.c
+OBJ = $(SRC:.c=.o)
 NAME = school
 RM = rm -f
 
