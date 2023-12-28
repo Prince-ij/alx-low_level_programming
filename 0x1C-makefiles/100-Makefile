@@ -7,8 +7,9 @@ SRC = main.c school.c
 OBJ = ${SRC:.c=.o}
 NAME = school
 
-all: m.h $(NAME)
+all: $(NAME)
 
+include m.h
 $(NAME): $(OBJ)
 	$(CC) $(OBJ) -c $@
 
