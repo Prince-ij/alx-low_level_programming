@@ -13,4 +13,5 @@ void print_times_table(int n);
 #include <stdlib.h>
 #include <stdio.h>
 #include <string.h>
+#include <unistd.h>
 int _putchar(char c);
