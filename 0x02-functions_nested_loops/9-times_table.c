@@ -6,26 +6,33 @@
  */
 void times_table(void)
 {
-	int i, j, r;
+int row, column, product;
 
-	for (i = 0; i <= 9; i++)
-	{
-		for (j = 0; j <= 9; j++)
-		{
-			r = i * j;
-			if (r > 9)
-			{
-				_putchar('0' + r);
-				_putchar('0' + r % 10);
-			}
-			else
-				_putchar('0' + r);
-			if (j != 9)
-			{
-				_putchar(',');
-				_putchar(' ');
-			}
-		}
-		_putchar('\n');
-	}
+    for (row = 0; row <= 9; row++)
+    {
+        for (column = 0; column <= 9; column++)
+        {
+            product = row * column;
+
+            if (product > 9)
+            {
+                _putchar(product / 10 + '0');
+                _putchar(product % 10 + '0');
+            }
+            else
+            {
+                if (column != 0)
+                    _putchar(' ');
+
+                _putchar(product + '0');
+            }
+
+            if (column != 9)
+            {
+                _putchar(',');
+                _putchar(' ');
+            }
+        }
+        _putchar('\n');
+    }
 }
