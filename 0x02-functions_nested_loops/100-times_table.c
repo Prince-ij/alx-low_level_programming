@@ -24,8 +24,11 @@ void print_times_table(int n)
 		_putchar(p + '0');
 	if (j != 0)
 		_putchar(' ');
+	if (j != 9)
+	{
 	_putchar(',');
 	_putchar(' ');
+	}
 	}
 	_putchar('\n');
 	}
