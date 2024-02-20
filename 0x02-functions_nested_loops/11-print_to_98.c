@@ -13,5 +13,5 @@ void print_to_98(int n)
 		n += (n < 98) ? 1 : -1;
 		printf("%d", n);
 	}
-	putchar("\n");
+	putchar('\n');
 }
