@@ -1,6 +1,6 @@
-#Learning Objectives
+# Learning Objectives
 
-##General
+## General
 
 - Why C programming is awesome
 - Who invented C
